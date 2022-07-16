@@ -9,4 +9,10 @@ module.exports = {
   daisyui: {
     themes: ["lofi"],
   },
+  test: /\.(png|jpe?g|gif|svg)$/i,
+  use: [
+    {
+      loader: 'file-loader',
+    },
+  ],
 }

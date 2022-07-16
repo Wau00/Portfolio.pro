@@ -1,3 +1,61 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.hoveron{
+    transition: transform 250ms;
+}
+.hoveron:hover{
+    transform: translateY(-10px);
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
+  .hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.05);
+  }
+  .texth:hover{
+      text-decoration: underline;
+  }
+  .hellothere{
+      background-color: black;
+      color: #ffff;
+      padding: 2px;
+      text-transform: lowercase;
+      align-items: center;
+      border-radius: 2px;
+      z-index: -1;
+  }
+  .nohell{
+      background-color: black;
+      color: #ffff;
+      padding:2px;
+      font-size: 13px;
+      z-index: 10;
+  }
+  .titlel{
+      color: #dddddd;
+  }
+ 
+  .textareax {
+    width: 300px;
+    height: 105px;
+    text-decoration: none;
+    border-radius: 1rem;
+  }
+  .textareaxc {
+    width: 300px;
+    height: 50px;
+    border-radius: 1rem;
+  }

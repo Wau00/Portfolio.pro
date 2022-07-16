@@ -1,7 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
-import profile from '../images/profile2.jpg'
+import profile from '../images/profile2.png'
+import profile2 from "../images/coding.png"
+import ContactMe from "../components/hireme";
+import tech from "../images/tech.png"
 
 function header() {
     return (
@@ -29,22 +32,22 @@ function header() {
                     </div>
                     <div class="avatar online">
                         <div class="w-24 rounded-full">
-                            <img src={profile}></img>
+                            <img src={profile2}></img>
                         </div>
                     </div>
 
 
                     <div class="btn btn-ghost normal-case text-left">
-                        <p>Walter<br /> Underwood <br /> <span className="text-xs font-light">Full Stack Developer</span></p>
+                        <p>Walter<br /> Underwood <br /> <span className="text-xs font-light ">Full Stack Engineer</span></p>
                     </div>
 
                 </div>
                 <div class="navbar-end hidden lg:flex mx-8">
                     <ul class="menu menu-horizontal p-0">
-                        <li><a>WORK</a></li>
-                        <li><a>ABOUT ME </a></li>
-                        <li><a>CONTACT</a></li>
-                        <a class="btn">RESUME</a>
+                        <li><a className="texth">WORK</a></li>
+                        <li><a className="texth">ABOUT ME </a></li>
+                        <li><a className="texth">CONTACT</a></li>
+                        <a class="btn"><svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>RESUME </a>
                     </ul>
                 </div>
             </div>
@@ -57,11 +60,11 @@ function header() {
                     </div>
                     <div className="text-left m-8">
                         <h2 className="text-3xl font-extralight ">Hello, I'm</h2>
-                        <h1 class="text-5xl font-bold py-6">Walter Underwood</h1>
-                        <p className=" text-2xl py-6 font-light">Full Stack Developer</p>
+                        <h1 class="text-5xl font-bold py-6 ">Walter Underwood</h1>
+                        <p className=" text-2xl font-light">Full Stack Engineer</p>
 
                         {/* Social Media Icons */}
-                        <div class="grid grid-flow-col gap-4 mx-6 ">
+                        <div class="grid grid-flow-col gap-4 py-6 mx-6 ">
                             <a><svg xmlns="http://www.w3.org/2000/svg"
                                 width="34" height="34"
                                 aria-label="GitHub" role="img"
@@ -87,12 +90,30 @@ function header() {
                             </svg></a>
                         </div>
                         {/*  */}
-                        <button class="btn btn-xs sm:btn-sm md:btn-md  btn-primary mt-8 mx-8">Get Started</button>
-                        <button class="btn btn-xs sm:btn-sm md:btn-md  btn-primary mt-8 mx-8">Get Started</button>
+                        <label class="btn rounded-full btn-sm sm:btn-sm md:btn-md  btn-primary modal-button" for="my-modal-h">Hire Me</label>
+                        <button class="btn  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary mt-8 mx-8 btn btn-outline"><svg class="fill-current w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg> RESUME</button>
                     </div>
                 </div>
             </div>
+
+            <input type="checkbox" id="my-modal-h" class="modal-toggle" />
+            <div class="flex items-center justify-center modal">
+                <div class=" card  flex-col lg:flex-row-reverse md:card-side lg:card-side bg-base-100 shadow-xl ">
+                    <figure><img src={tech} alt="Album"></img></figure>
+                    <div class="card-body">
+                        <h1 class="card-title text-xl font-bold">LET'S TALK</h1>
+                        <h2 className="text-xs font-bold ">CALL ME OR SEND ME A MESSAGE</h2>
+                        <p className="text-xs font-light ">
+                            <svg fill="#000000" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="25px" height="25px"><path d="M 14 3.9902344 C 8.4886661 3.9902344 4 8.4789008 4 13.990234 L 4 35.990234 C 4 41.501568 8.4886661 45.990234 14 45.990234 L 36 45.990234 C 41.511334 45.990234 46 41.501568 46 35.990234 L 46 13.990234 C 46 8.4789008 41.511334 3.9902344 36 3.9902344 L 14 3.9902344 z M 18.005859 12.033203 C 18.633859 12.060203 19.210594 12.414031 19.558594 12.957031 C 19.954594 13.575031 20.569141 14.534156 21.369141 15.785156 C 22.099141 16.926156 22.150047 18.399844 21.498047 19.589844 L 20.033203 21.673828 C 19.637203 22.237828 19.558219 22.959703 19.824219 23.595703 C 20.238219 24.585703 21.040797 26.107203 22.466797 27.533203 C 23.892797 28.959203 25.414297 29.761781 26.404297 30.175781 C 27.040297 30.441781 27.762172 30.362797 28.326172 29.966797 L 30.410156 28.501953 C 31.600156 27.849953 33.073844 27.901859 34.214844 28.630859 C 35.465844 29.430859 36.424969 30.045406 37.042969 30.441406 C 37.585969 30.789406 37.939797 31.366141 37.966797 31.994141 C 38.120797 35.558141 35.359641 37.001953 34.556641 37.001953 C 34.000641 37.001953 27.316344 37.761656 19.777344 30.222656 C 12.238344 22.683656 12.998047 15.999359 12.998047 15.443359 C 12.998047 14.640359 14.441859 11.879203 18.005859 12.033203 z" /> </svg></p>
+                        <span className="text-xs font-light ">walonsounderwood@gmail.com</span>
+                        <ContactMe />
+                        <label for="my-modal-h" class=" btn  absolute right-2 top-2 btn-circle"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></label>
+                    </div>
+                </div>
+            </div>
+            <hr></hr>
         </div >
+
     )
 }
 
