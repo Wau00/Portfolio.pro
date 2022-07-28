@@ -17,11 +17,13 @@ function aboutme() {
                         {/* Social Media Icons */}
                         <div class="grid grid-flow-col gap-4 py-6 mx-6 ">
                             <div>
-                                <p>Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                <p>I am an outgoing, dedicated and enthusiastic entry-level Full-Stack developer, eager to contribute to the team's success through hard work, attention to detail and excellent organizational skills.
+                                    I believe that people should work on developing their professional skills and learn new things all the time. I have a clear understanding of Front-End and Back-End. Motivated to learn, grow and succeed in the technology industry.
+                                </p>
                             </div>
                         </div>
 
-                        <button class="btn rounded-full btn-sm sm:btn-sm md:btn-md  btn-primary ">Hire Me</button>
+                        <label class="btn rounded-full btn-sm sm:btn-sm md:btn-md  btn-primary modal-button" for="my-modal-h">Hire Me</label>
                         <button class="btn  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary mt-8 mx-8 btn btn-outline"><svg class="fill-current w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg> RESUME</button>
                     </div>
                 </div>

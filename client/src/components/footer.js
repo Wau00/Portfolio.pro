@@ -3,12 +3,11 @@ import React from "react";
 function footer() {
     return (
         <>
-            <footer class="footer footer-center p-10 bg-primary text-primary-content">
+            <footer id="aboutme" class="footer footer-center p-10 bg-primary text-primary-content">
                 <div class="grid grid-flow-col gap-4">
-                    <a class="link link-hover">About us</a>
-                    <a class="link link-hover">Contact</a>
-                    <a class="link link-hover">Jobs</a>
-                    <a class="link link-hover">Press kit</a>
+                    <a href="/" class="link link-hover">Home</a>
+                    <a class="link link-hover"><label for="my-modal-h">Contact</label></a>
+                    <a href="#Portfolio" class="link link-hover">Portfolio</a>
                 </div>
                 <div>
                     <div class="grid grid-flow-col gap-4">
@@ -18,7 +17,8 @@ function footer() {
                     </div>
                 </div>
                 <div>
-                    <p>Copyright © 2022 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2022 - All right reserved by Walter U</p>
+                    <p></p>
                 </div>
             </footer>
         </>
