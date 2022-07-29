@@ -1,4 +1,5 @@
 {
+    "homepage": "https://wau00.github.io/Portfolio.pro/",
     "name": "portfolio.pro",
     "version": "1.0.0",
     "description": "",
@@ -8,6 +9,8 @@
     },
     "main": "server/server.js",
     "scripts": {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build",
         "start": "node server/server.js",
         "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
         "install": "cd server && npm i && cd ../client && npm i",
@@ -18,7 +21,8 @@
     "author": "",
     "license": "ISC",
     "devDependencies": {
-        "concurrently": "^5.1.0"
+        "concurrently": "^5.1.0",
+        "gh-pages": "^4.0.0"
     },
     "dependencies": {
         "mongoose": "^6.3.6"
