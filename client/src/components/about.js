@@ -8,7 +8,7 @@ function aboutme() {
             <div class="hero min-h-max bg-base-100 mt-8 columns-3">
                 <div class="hero-content flex-col lg:flex-row mx-8 ">
                     <div>
-                        <img src={profile} class="max-w-6xl rounded-l mx-8" />
+                        <img src={profile} alt="hello" class="max-w-6xl rounded-l mx-8" />
                     </div>
                     <div className="text-left">
                         <h2 className="text-3xl font-bold ">ABOUT ME</h2>

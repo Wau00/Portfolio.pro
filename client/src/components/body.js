@@ -51,12 +51,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://social-burger.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/Social-Burger-P02" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -68,13 +68,13 @@ function body() {
                         <div className=" overflow-visible relative -left-6 -top-6 z-3 bg-transparent">
                             <a href="https://social-burger.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/Social-Burger-P02" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -111,12 +111,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://techblogwau.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/TechBlog-MVC-HW-14" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -129,13 +129,13 @@ function body() {
 
                             <a href="https://techblogwau.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/TechBlog-MVC-HW-14" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -172,12 +172,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://wau00.github.io/laaw-investment-tracker-P01/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img alt="hello" className="" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/laaw-investment-tracker-P01" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -190,13 +190,13 @@ function body() {
 
                             <a href="https://wau00.github.io/laaw-investment-tracker-P01/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/laaw-investment-tracker-P01" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -233,12 +233,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://brain-stimuli.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/memorize-me" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -251,13 +251,13 @@ function body() {
 
                             <a href="https://brain-stimuli.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/memorize-me" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -293,12 +293,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://frozen-everglades-20734.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/Book-Search-Engine-HW-21" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello"src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -311,13 +311,13 @@ function body() {
 
                             <a href="https://frozen-everglades-20734.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/Book-Search-Engine-HW-21" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -355,12 +355,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://wau00.github.io/Server-Side-APIs-HW-06/?" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/Server-Side-APIs-HW-06" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -373,13 +373,13 @@ function body() {
 
                             <a href="https://wau00.github.io/Server-Side-APIs-HW-06/?" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/Server-Side-APIs-HW-06" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -415,12 +415,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://glacial-peak-13098.herokuapp.com/" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/Note-Taker-ExpressJs-HW-11" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -433,13 +433,13 @@ function body() {
 
                             <a href="https://glacial-peak-13098.herokuapp.com/" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/Note-Taker-ExpressJs-HW-11" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -476,12 +476,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://user-images.githubusercontent.com/99919050/166874240-46403e79-efd9-4d8d-86af-f24d1a33951a.mp4" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/ECommerce-BackEnd-ORM-HW-13" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -494,13 +494,13 @@ function body() {
 
                             <a href="https://user-images.githubusercontent.com/99919050/166874240-46403e79-efd9-4d8d-86af-f24d1a33951a.mp4" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/ECommerce-BackEnd-ORM-HW-13" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>
@@ -536,12 +536,12 @@ function body() {
                                 <div class="card-actions justify-center">
                                     <a href="https://github.com/Wau00/Web-APIs-Code-Quiz-HW-04" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="website">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                         </div>
                                     </a>
                                     <a href="https://github.com/Wau00/Web-APIs-Code-Quiz-HW-04" target="_blank" rel="noreferrer">
                                         <div class="tooltip" data-tip="repository">
-                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                            <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                         </div>
                                     </a>
                                     <div class="tooltip" data-tip="close">
@@ -554,13 +554,13 @@ function body() {
 
                             <a href="https://github.com/Wau00/Web-APIs-Code-Quiz-HW-04" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="website">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Animated}></img> </button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Animated}></img> </button>
                                 </div>
                             </a>
                             <br></br>
                             <a href="https://github.com/Wau00/Web-APIs-Code-Quiz-HW-04" target="_blank" rel="noreferrer">
                                 <div class="tooltip" data-tip="repository">
-                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" src={Coding}></img></button>
+                                    <button className=" hvr-grow btn btn-ghost btn-circle"><img className="" alt="hello" src={Coding}></img></button>
                                 </div>
                             </a>
                             <br></br>

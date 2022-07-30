@@ -1,5 +1,6 @@
 {
-    "name": "portfolio.pro",
+    "name": "portfolio-pro",
+    "homepage": "https://wunderwood.herokuapp.com/",
     "version": "1.0.0",
     "description": "",
     "engines": {

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Form, Row, Col, Button, Container, } from "react-bootstrap"
+import { Form, Row, Button, Container, } from "react-bootstrap"
 import { validateEmail } from '../utils/helpers.js';
 
 
@@ -27,7 +27,7 @@ const ContactMe = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        if (!validateEmail(email)) {
+        if (!validateEmail(email && name)) {
             setErrorMessage('Warning: Invalid email address!');
             return;
         }
