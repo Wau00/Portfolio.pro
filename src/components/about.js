@@ -1,6 +1,7 @@
 import React from "react";
 import profile from '../images/me2.png'
 import resume from '../images/resume.pdf'
+import Skills from "./skills";
 
 function aboutme() {
     return (
@@ -9,7 +10,7 @@ function aboutme() {
             <div class="hero min-h-max bg-base-100 mt-8 columns-3">
                 <div class="hero-content flex-col lg:flex-row mx-8 ">
                     <div>
-                        <img src={profile} alt="hello" class="max-w-6xl rounded-l mx-8" />
+                        <img src={profile} alt="hello" class=" rounded-l md:max-w-6xl lg:max-w-6xl  md:mx-8 lg:mx-8" />
                     </div>
                     <div className="text-left">
                         <h2 className="text-3xl font-bold ">ABOUT ME</h2>
@@ -26,7 +27,9 @@ function aboutme() {
 
                         <label class="btn rounded-full btn-sm sm:btn-sm md:btn-md  btn-primary modal-button" for="my-modal-h">Hire Me</label>
                         <a target="_blank" rel="noreferrer" href={resume}><button class="btn  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary mt-8 mx-8 btn btn-outline"><svg class="fill-current w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg> RESUME</button></a>
+                        {/* <label class="btn btn-warning  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary modal-button" for="my-modal-skills">Skills</label> */}
                     </div>
+                    <Skills />
                 </div>
             </div>
         </>

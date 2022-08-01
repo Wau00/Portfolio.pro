@@ -98,9 +98,9 @@ function header() {
             <input type="checkbox" id="my-modal-h" class="modal-toggle" />
             <div class="flex items-center justify-center modal">
                 <div class=" card  flex-col lg:flex-row-reverse md:card-side lg:card-side bg-base-100 shadow-xl ">
-                    <figure><img src={tech} alt="Album"></img></figure>
+                    <figure><img className=" w-2 md:w-96 lg:w-96 " src={tech} alt="Album"></img></figure>
                     <div class="card-body">
-                        <h1 class="card-title text-xl font-bold">LET'S TALK</h1>
+                        <h1 class="card-title text-xl font-bold">LET'S TALK </h1>
                         <h2 className="text-xs font-bold ">CALL ME OR SEND ME A MESSAGE</h2>
                         <div>
                             <div className="float-left">
@@ -121,7 +121,7 @@ function header() {
                         </div>
                         <ContactMe />
                         <label for="my-modal-h" class=" btn  absolute right-2 top-2 btn-circle"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></label>
-                        <label for="my-modal-h" class=" btn  btn-circle"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></label>
+
                     </div>
                 </div>
             </div>
