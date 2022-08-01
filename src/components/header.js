@@ -5,6 +5,7 @@ import profile from '../images/profile2.png'
 import profile2 from "../images/coding.png"
 import ContactMe from "../components/hireme";
 import tech from "../images/coding.png"
+import resume from '../images/resume.pdf'
 
 function header() {
 
@@ -17,18 +18,10 @@ function header() {
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                         </label>
                         <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                            <li><a>Projects </a></li>
-                            <li tabindex="0">
-                                <a class="justify-between">
-                                    Parent
-                                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
-                                </a>
-                                <ul class="p-2">
-                                    <li><a>Submenu 1</a></li>
-                                    <li><a>Submenu 2</a></li>
-                                </ul>
-                            </li>
-                            <li><a>Item 3</a></li>
+                            <li><a href="#Portfolio" className="texth">WORK</a></li>
+                            <li><a href="#aboutme" className="texth">ABOUT ME </a></li>
+                            <li><a className="texth" for="my-modal-h"><label class="modal-button texth" for="my-modal-h">CONTACT</label></a></li>
+                            <li><a href={resume} target="_blank" rel="noreferrer" >RESUME </a></li>
                         </ul>
                     </div>
                     <div class="avatar online">
@@ -50,8 +43,7 @@ function header() {
                         <li><a href="#Portfolio" className="texth">WORK</a></li>
                         <li><a href="#aboutme" className="texth">ABOUT ME </a></li>
                         <li><a className="texth" for="my-modal-h"><label class="modal-button texth" for="my-modal-h">CONTACT</label></a></li>
-
-                        <a class="btn"><svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>RESUME </a>
+                        <a class="btn" href={resume} target="_blank" rel="noreferrer" ><svg class="fill-current w-4 h-4 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg>RESUME </a>
                     </ul>
                 </div>
             </div>
@@ -98,7 +90,7 @@ function header() {
                         </div>
                         {/*  */}
                         <label class="btn rounded-full btn-sm sm:btn-sm md:btn-md  btn-primary modal-button" for="my-modal-h">Hire Me</label>
-                        <button class="btn  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary mt-8 mx-8 btn btn-outline"><svg class="fill-current w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg> RESUME</button>
+                        <a target="_blank" rel="noreferrer" href={resume}><button class="btn  rounded-full btn-sm sm:btn-sm md:btn-md btn-primary mt-8 mx-8 btn btn-outline"><svg class="fill-current w-3 h-3 mr-2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M13 8V2H7v6H2l8 8 8-8h-5zM0 18h20v2H0v-2z" /></svg> RESUME</button></a>
                     </div>
                 </div>
             </div>
@@ -129,6 +121,7 @@ function header() {
                         </div>
                         <ContactMe />
                         <label for="my-modal-h" class=" btn  absolute right-2 top-2 btn-circle"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></label>
+                        <label for="my-modal-h" class=" btn  btn-circle"><svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /></svg></label>
                     </div>
                 </div>
             </div>
